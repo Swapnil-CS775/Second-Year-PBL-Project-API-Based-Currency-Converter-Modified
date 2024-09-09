@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter</title>
+
+  <link href="style.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+    <!-- Font -->
+</head>
+
+<body>
+  <header>
+    <div class="hambergar"><img src="hambergar.svg" alt=""></div>
+    <div class="navbar">
+      <ul>
+        <a href="crypto.html">More Currencys</a>
+        <a href="aboutapi.html">About API</a>
+        <a href="about.html">About Us</a>
+        <li><button class="dark-light DarkBtn">Dark</button></li>
+      </ul>
+    </div>
+    <div class="left">
+      <ul>
+        <div class="cross"><img src="cross.svg" alt=""></div>
+        <a href="crypto.html">More Currencys</a>
+        <a href="aboutapi.html">About API</a>
+        <a href="about.html">About Us</a>
+        <li><button class="ldark-light DarkBtn">Dark</button></li>
+      </ul>
+    </div>
+    <div class="seperator"></div>
+  </header>
+  <main>
+  <div class="container">
+
+    <h2>Currency Converter</h2>
+
+    <form>
+      <div class="amount">
+        <p>Enter Amount</p>
+        <input value="1" type="text" />
+      </div>
+      <div class="dropdown">
+        <div class="from">
+          <p>From</p>
+          <div class="select-container">
+            <img src="https://flagsapi.com/US/flat/64.png" alt="Flag"/>
+            <select name="from"></select>
+          </div>
+        </div>
+
+
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+
+        <div class="to">
+          <p>To</p>
+          <div class="select-container">
+            <img src="https://flagsapi.com/IN/flat/64.png" alt="Flag"/>
+            <select name="to"></select>
+          </div>
+        </div>
+      </div>
+      <div class="msg">1 USD = 80 INR</div>
+      <button type="button">Get Exchange Rate</button>
+    </form>
+  </div>
+</main>
+
+
+  <script src="codes.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

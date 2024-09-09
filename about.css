@@ -1,0 +1,92 @@
+.aboutBody{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Set background color to light gray */
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set body height to full viewport height */
+    /* background-color: #e7eeee; */
+}
+
+.container {
+    width: 60%; /* Adjust width as needed */
+    background-color: #fff; /* Set background color to white */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 8px; /* Add rounded corners to the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    
+}
+
+main {
+    width: 100%; /* Adjust width if needed */
+    max-width: 400px; /* Example maximum width */
+    border: 1px solid black; /* Border for demonstration */
+    padding: 20px; /* Add padding */
+    background-color: #ffffffb5;
+
+}
+
+section {
+    margin-bottom: 20px;
+}
+.contact-form {
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+section h2 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#message {
+    resize: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+button {
+    background-color: #07beb8;
+    color: black;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width:700px){
+    main {
+        margin: 25px;
+    }
+}
